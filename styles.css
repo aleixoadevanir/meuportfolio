@@ -1,0 +1,152 @@
+/* Define o estilo padrão para o corpo do documento */
+body {
+    background-image: url('image/fundo.jpeg');
+    background-size: cover;
+    background-position: center;
+   
+    font-family: Arial, sans-serif; /* Define a família de fontes */
+    margin: 0; /* Remove margens externas */
+    padding: 0; /* Remove preenchimento interno */
+    background-color: #f4f4f4; /* Define a cor de fundo */
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #050505; /* Define a cor de fundo */
+    padding: 20px; /* Adiciona preenchimento interno */
+    text-align: center; /* Alinha o texto ao centro */
+    position: relative;
+}
+
+
+header h1{
+    text-align: center;
+    color: rgb(226, 214, 214);
+    transition: .2 ease;
+}
+
+header h1:hover{
+    color: #09f764;
+}
+
+
+/* Estilo da barra de navegação */
+nav ul {
+    list-style-type: none; /* Remove os marcadores de lista */
+    padding: 0; /* Remove o preenchimento */
+    text-align: center; /* Alinha os itens ao centro */
+}
+
+/* Estilo dos itens do menu */
+nav ul li {
+    display: inline-block; /* Exibe os itens em linha */
+    margin-right: 10px; /* Adiciona margem direita */
+}
+
+/* Estilo dos links no menu */
+nav ul li a {
+    color: #ece1e1; /* Define a cor do texto */
+    text-decoration: none; /* Remove a decoração do link */
+    transition: .2;
+}
+/*muda a cor dos menu ao passar o mouse*/
+nav ul li a:hover{
+    color: green;
+}
+
+/* Estilo das seções de conteúdo */
+section {
+    color: rgb(231, 219, 219);/* cor das letras dos paragafos*/
+    background-color: #000000; /* Define a cor de fundo */
+    padding: 20px; /* Adiciona preenchimento */
+    margin: 20px auto; /* Centraliza horizontalmente */
+    max-width: 600px; /* Define a largura máxima */
+    border-radius: 5px; /* Adiciona bordas arredondadas */
+    /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra */
+}
+p{
+    line-height: 2;
+    text-align: justify;
+    background-color: #0c0c0c;
+    padding: 10px;
+    text-shadow: 2px 2px 2px #f507070c;
+}
+/*classe das seçoes*/
+.sobremim h2{
+    color: #007bff;
+}
+/*cor secao formacao*/
+.formacao h2{
+    color: #007bff;
+}
+/*cor pagina inicial*/
+.paginainicial h2{
+    color: #007bff;
+}
+/*cor portfolio*/
+.portfolio h2{
+    color: #007bff;
+}
+.contato{
+    text-align: center;
+    color: #007bff;
+}
+
+/* Estilo do formulário */
+form {
+    color: rgb(73, 27, 27);
+    display: grid; /* Usa um layout de grid para o formulário */
+    grid-gap: 20px; /* Define o espaçamento entre as células do grid */
+}
+/* Estilo dos rótulos do formulário */
+label {
+    font-weight: bold; /* Define a fonte em negrito */
+    color: rgb(241, 8, 8);/*cor do label*/
+    text-align: left; /*posição do label*/
+    padding: 2px;
+    
+
+}
+
+/* Estilo dos campos de entrada de texto e de email, e da área de texto */
+input[type="text"],
+input[type="email"],
+textarea {
+   
+    width: 100%; /* Define a largura como 100% */
+    padding: 10px; /* Adiciona preenchimento */
+    border: 1px solid #f50707; /* Adiciona uma borda */
+    border-radius: 10px; /* Adiciona bordas arredondadas */
+    box-sizing: border-box; /* Garante que o preenchimento e a borda não afetem a largura total */
+}
+
+/* Estilo da área de texto */
+textarea {
+    resize: vertical; /* Permite que o usuário redimensione verticalmente */
+}
+
+/* Estilo do botão de envio */
+input[type="submit"] {
+    background-color: #0379f8; /* Define a cor de fundo */
+    color: #000000; /* Define a cor do texto */
+    border: none; /* Remove a borda */
+    padding: 10px 20px; /* Adiciona preenchimento */
+    border-radius: 10px; /* Adiciona bordas arredondadas */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+}
+
+/* muda a cor do enviar passar o mouse por cima */
+input[type="submit"]:hover {
+    background-color: #09f764; /* Muda a cor de fundo ao passar o mouse */
+}
+/* Estilo do rodapé */
+footer .rodape{
+    background-color: #007bff; /* Define a cor de fundo */
+    color: #faf3f3; /* Define a cor do texto */
+    padding: 10px 0; /* Adiciona preenchimento superior e inferior */
+    text-align: center; /* Alinha o texto ao centro */
+    position: fixed; /* Fixa o rodapé na parte inferior da janela */
+    width: 100%; /* Define a largura como 100% da largura da janela */
+    bottom: 0; /* Alinha o rodapé na parte inferior */
+}
+
